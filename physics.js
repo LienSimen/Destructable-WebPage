@@ -45,14 +45,14 @@ const rightWall = Bodies.rectangle(
 );
 World.add(world, [ground, leftWall, rightWall]);
 
-// Create a stick figure
+// Create brick
 const stickFigure = Bodies.rectangle(200, 300, 30, 50, {
   label: "stickFigure",
   restitution: 0.5,
 });
 World.add(world, stickFigure);
 
-// Add keyboard controls for the stick figure
+// Add keyboard controls for the brick
 document.addEventListener("keydown", (event) => {
   const force = 0.02;
   if (event.key === "ArrowUp") {
