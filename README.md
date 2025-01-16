@@ -1,5 +1,5 @@
 # Destructable web page
 
-We got Red Faction: Guerrilla at home
+Control the brick, destroy web page with the brick. Just add class="destroyable" to whatever.
 
 ![Feature Demo](animation.gif)
